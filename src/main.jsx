@@ -7,7 +7,7 @@ import App from "./App.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ContextProvider>
-      <BrowserRouter >
+      <BrowserRouter basename="/rock-paper-scissors/">
         <App />
       </BrowserRouter>
     </ContextProvider>
